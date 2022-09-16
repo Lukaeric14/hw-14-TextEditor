@@ -34,7 +34,7 @@ export const getDb = async () => {
   if (res) {
     console.log("Retrieved Data: ", res.value);
     return res.value;
-  } else if (!result) {
+  } else if (!res) {
     console.log("No Data found in db");
     return;
   }
