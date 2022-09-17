@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "cd Develop/server && node server.js",
-    "install": "cd Develop/client && npm install && ../server && npm install",
+    "install": "cd Develop/client && npm install && cd ../server && npm install",
     "build": "cd Develop/client && npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
