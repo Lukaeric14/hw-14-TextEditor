@@ -6,6 +6,7 @@
   "scripts": {
     "start": "cd Develop/server && node server.js",
     "install": "cd Develop/client && npm install && ../server && npm install",
+    "build": "cd Develop/client && npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
