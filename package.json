@@ -1,0 +1,21 @@
+{
+  "name": "hw-14-texteditor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "cd Develop/server && node server.js",
+    "install": "cd Develop/client && npm install && ../server && npm install",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lukaeric14/hw-14-TextEditor.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lukaeric14/hw-14-TextEditor/issues"
+  },
+  "homepage": "https://github.com/Lukaeric14/hw-14-TextEditor#readme"
+}
